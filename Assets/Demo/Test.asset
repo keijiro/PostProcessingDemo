@@ -35,7 +35,7 @@ MonoBehaviour:
       fxaaSettings:
         preset: 2
       taaSettings:
-        jitterSpread: 0.75
+        jitterSpread: 0.796
         sharpen: 0.3
         stationaryBlending: 0.95
         motionBlending: 0.85
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       intensity: 1
-      radius: 0.47
+      radius: 0.4
       sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       lowPercent: 42.8471
       highPercent: 92.8471
@@ -120,7 +120,7 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 1
+        postExposure: 0.25
         temperature: 9
         tint: -3
         hueShift: 0
@@ -132,15 +132,15 @@ MonoBehaviour:
         blue: {x: 0, y: 0, z: 1}
         currentEditingChannel: 0
       colorWheels:
-        mode: 1
+        mode: 0
         log:
-          slope: {r: 0.9498042, g: 1, b: 0.9433859, a: 0}
-          power: {r: 0.92947704, g: 0.9783314, b: 1, a: 0}
-          offset: {r: 1, g: 0.9059678, b: 0.934859, a: 0}
+          slope: {r: 1, g: 1, b: 1, a: 0}
+          power: {r: 1, g: 1, b: 1, a: 0}
+          offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 1, g: 0.794626, b: 0.8055101, a: 0}
+          gamma: {r: 0.8151629, g: 1, b: 0.89621395, a: 0.018604651}
+          gain: {r: 1, g: 0.90993804, b: 0.9929523, a: 0}
       curves:
         master:
           curve:
@@ -149,14 +149,14 @@ MonoBehaviour:
             - serializedVersion: 2
               time: 0
               value: 0
-              inSlope: 1
+              inSlope: 0
               outSlope: 1
               tangentMode: 0
             - serializedVersion: 2
-              time: 1
+              time: 0.9285714
               value: 1
               inSlope: 1
-              outSlope: 1
+              outSlope: 0
               tangentMode: 0
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -284,9 +284,9 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.129
+      intensity: 0.23
   grain:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       colored: 1
       intensity: 0.284
@@ -305,10 +305,10 @@ MonoBehaviour:
       opacity: 1
       rounded: 0
   dithering:
-    m_Enabled: 0
+    m_Enabled: 1
   monitors:
-    currentMonitorID: 1
-    refreshOnPlay: 1
+    currentMonitorID: 0
+    refreshOnPlay: 0
     histogramMode: 3
     waveformExposure: 0.12
     waveformY: 0
