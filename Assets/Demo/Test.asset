@@ -57,12 +57,12 @@ MonoBehaviour:
         reflectionQuality: 2
         maxDistance: 100
         iterationCount: 256
-        stepSize: 3
+        stepSize: 2
         widthModifier: 0.5
-        reflectionBlur: 1
+        reflectionBlur: 2
         reflectBackfaces: 0
       intensity:
-        reflectionMultiplier: 1.41
+        reflectionMultiplier: 1
         fadeDistance: 100
         fresnelFade: 1
         fresnelFadePower: 1
