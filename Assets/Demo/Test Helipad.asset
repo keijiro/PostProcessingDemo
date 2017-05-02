@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       method: 1
       fxaaSettings:
@@ -71,11 +71,11 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 7.5
+      focusDistance: 7.38
       aperture: 1.2
-      focalLength: 50
+      focalLength: 24
       useCameraFov: 1
-      kernelSize: 1
+      kernelSize: 3
   motionBlur:
     m_Enabled: 0
     m_Settings:
@@ -120,11 +120,11 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0.25
-        temperature: 9
-        tint: -3
+        postExposure: 1.36
+        temperature: 4
+        tint: 5
         hueShift: 0
-        saturation: 1.37
+        saturation: 1.16
         contrast: 1
       channelMixer:
         red: {x: 1, y: 0, z: 0}
@@ -134,13 +134,13 @@ MonoBehaviour:
       colorWheels:
         mode: 0
         log:
-          slope: {r: 1, g: 1, b: 1, a: 0}
+          slope: {r: 1, g: 1, b: 1, a: -0.09014084}
           power: {r: 1, g: 1, b: 1, a: 0}
           offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 1, g: 0.794626, b: 0.8055101, a: 0}
-          gamma: {r: 0.8151629, g: 1, b: 0.89621395, a: 0.018604651}
-          gain: {r: 1, g: 0.90993804, b: 0.9929523, a: 0}
+          lift: {r: 0.9325122, g: 0.9539799, b: 1, a: 0}
+          gamma: {r: 1, g: 0.82157457, b: 0.91365355, a: 0}
+          gain: {r: 0.98924774, g: 1, b: 0.99669594, a: 0}
       curves:
         master:
           curve:
@@ -149,14 +149,14 @@ MonoBehaviour:
             - serializedVersion: 2
               time: 0
               value: 0
-              inSlope: 0
+              inSlope: 1
               outSlope: 1
               tangentMode: 0
             - serializedVersion: 2
-              time: 0.9285714
+              time: 1
               value: 1
               inSlope: 1
-              outSlope: 0
+              outSlope: 1
               tangentMode: 0
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -307,7 +307,7 @@ MonoBehaviour:
   dithering:
     m_Enabled: 1
   monitors:
-    currentMonitorID: 0
+    currentMonitorID: 1
     refreshOnPlay: 0
     histogramMode: 3
     waveformExposure: 0.12

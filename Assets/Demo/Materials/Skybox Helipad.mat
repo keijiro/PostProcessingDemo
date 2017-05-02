@@ -68,7 +68,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 0
+    - _Rotation: 203
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
